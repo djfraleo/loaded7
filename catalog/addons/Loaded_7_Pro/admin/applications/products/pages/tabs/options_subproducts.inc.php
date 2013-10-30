@@ -89,7 +89,7 @@ function getSubProductsRows() {
               '  <td style="white-space:nowrap;"><div class="inputs" style="display:inline; padding:8px 0;"><span class="mid-margin-left no-margin-right"><?php echo $lC_Currencies->getSymbolLeft(); ?></span><input type="text" class="input-unstyled" style="width:87%;" onfocus="this.select();" tabindex="' + key + '5" name="sub_products_cost[' + key + ']" value="' + val.products_cost + '"></div></td>'+
               '  <td class="align-center align-middle">'+
               '    <input style="display:none;" type="file" id="sub_products_image_' + key + '" name="sub_products_image[' + key + ']" onchange="setSubProductImage(\'' + key + '\');" multiple />'+
-              '    <span class="icon-camera icon-size2 cursor-pointer with-tooltip ' + ((val.image != '') ? 'icon-green' : 'icon-grey') + '" title="' + ((val.image != '') ? val.image : null) + '" id="fileSelectButton-' + key + '" onclick="document.getElementById(\'sub_products_image_' + key + '\').click();"></span>'+
+              '    <span class="icon-camera icon-size2 cursor-pointer with-tooltip ' + ((val.image != '' && val.image != null) ? 'icon-green' : 'icon-grey') + '" title="' + ((val.image != '' && val.image != null) ? val.image : null) + '" id="fileSelectButton-' + key + '" onclick="document.getElementById(\'sub_products_image_' + key + '\').click();"></span>'+
               '  </td>'+
               '  <td class="align-right align-middle">'+
         //      '    <a href="' + editLink.replace('PID', val.products_id) + '" class="with-tooltip margin-right" title="<?php echo $lC_Language->get('text_sub_products_edit'); ?>"><span class="icon-pencil icon-size2 icon-blue"></span></a>'+
