@@ -41,8 +41,9 @@
               </td>
               <td class="text-left hide-on-mobile-portrait">
                 <?php 
-                  echo '<div class="pull-right">' . lc_link_object(lc_href_link(FILENAME_PRODUCTS, $products['keyword']), strtolower($lC_Language->get('button_edit'))) . '</div>' . "\n";
-                  echo '<h4 class="no-margin-top no-margin-bottom">' . lc_link_object(lc_href_link(FILENAME_PRODUCTS, $products['keyword']), $products['name']) . '</h4>' . "\n";
+                  $key = (isset($products['parent_id']) && (int)$products['parent_id'] > 0) ? (int)$products['parent_id'] : $products['keyword'];                 
+                  echo '<div class="pull-right">' . lc_link_object(lc_href_link(FILENAME_PRODUCTS, $key), strtolower($lC_Language->get('button_edit'))) . '</div>' . "\n";
+                  echo '<h4 class="no-margin-top no-margin-bottom">' . lc_link_object(lc_href_link(FILENAME_PRODUCTS, $key), $products['name']) . '</h4>' . "\n";
                   echo '<div class="clearfix primary">' . "\n";
                   if (!empty($products['model'])) {
                     echo '<small>' . $lC_Language->get('listing_model_heading') . ': ' . $products['model'] . '</small>' . "\n";
@@ -59,7 +60,12 @@
                     foreach ( $lC_ShoppingCart->getSimpleOptions($products['item_id']) as $option) {
                       echo '<br /><small>- ' . $option['group_title'] . ': ' . $option['value_title'] . '</span>' . "\n";
                     }
-                  }                             
+                  }   
+                  if (isset($products['is_subproduct']) && (int)$products['is_subproduct'] > 0) {
+                    $text = (isset($products['model']) && $products['model'] != null) ? $lC_Language->get('listing_model_heading') . ': ' . $products['model'] : null;
+                    if ($text == null) $text = (isset($products['sku']) && $products['sku'] != null) ? $lC_Language->get('listing_sku_heading') . ': ' . $products['sku'] : null;
+                    if ($text != null)  echo '<small class="small-margin-left"><em style="font-weight:200;">' . $text . '</em></small>' . "\n";
+                  }
                   echo '</div>' . "\n";
                 ?>
               </td>
