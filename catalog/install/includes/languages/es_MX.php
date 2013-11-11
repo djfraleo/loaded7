@@ -1,4 +1,4 @@
-#  $Id: en_US.php v1.0 2012-12-08 datazen $
+#  $Id: es_MX.php v1.0 2013-11-11 djfraleo $
 #
 #  LoadedCommerce, Innovative eCommerce Solutions
 #  http://www.loadedcommerce.com
