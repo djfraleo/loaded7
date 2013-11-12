@@ -67,26 +67,26 @@ param_administrator_username_description = Nombre de usuario que se utilizara pa
 param_administrator_password = Contraseña Administrador
 param_administrator_password_description = La contraseña a utilizar para la cuenta administradora.
 
-box_info_step_1_title = Path to Existing Installation
-box_info_step_1_text = Path to Existing Installation description text.
+box_info_step_1_title = Ruta a la Instalacion Existente
+box_info_step_1_text = Ruta a la Instalacion Existente texto descriptivo.
 
-box_info_step_1_title_R = Remote Database Connection Values
-box_info_step_1_text = Remote Database Connection Values Description text.
+box_info_step_1_title_R = Valores de Conexion de la Base de Datos Remota
+box_info_step_1_text = Valores de Conexion de la Base de Datos Remota Texto Descripcion.
 
-box_info_step_1_title_D = Path to Database File
-box_info_step_1_text = Path to Database File description text.
+box_info_step_1_title_D = Ruta al Archivo de Base de Datos
+box_info_step_1_text = Ruta al Archivo de Base de Datos Texto Descripcion.
                                                                                                                               
-box_info_step_2_title = Web Server                                                                                            
-box_info_step_2_text = The web server takes care of serving the pages of the online store to the visitors and customers. The web server parameters make sure the links to the pages point to the correct location. Temporary files such as session data and cache files are stored in the work directory. It is important that this directory is located outside the web server root directory and is protected from public access.
+box_info_step_2_title = Servidor Web                                                                                            
+box_info_step_2_text = El Servidor web se encarga de servir las paginas de la tienda online a los visitantes y clientes. Los parametros del servidor web se aseguran que las ligas a las paginas apunten a la localidad correcta. Los archivos temporales tales como los datos de sesion y archivos de cache son almacenados en el directorio de trabajo. Es importante que este directorio sea localizado fuera del directorio raiz del servidor web y este protegido del acceso publico.
 
-box_info_step_3_title = Store Settings
-box_info_step_3_text = Here you can define the name of your online store, and the contact information for the store owner.  The administrator username and password are used to log into the protected administration tool section.
+box_info_step_3_title = Parametros de la Tienda
+box_info_step_3_text = Aqui puede definir el nombre de su tienda online, y la informacion de contacto para el dueño de la tienda.  El nombre de usuario y contraseña son utilizados para autentificarse dentro de la seccion protegida de la herramienta administrativa.
 
-box_info_step_4_title = Finished!
-box_info_step_4_text = Congratulations on installing and configuring Loaded Commerce as your online store solution! We hope you all the best with your online store and welcome you to join and participate in our community.<br /><br /><span style="float:right;">- The Loaded Commerce Team</span>
-box_info_step_5_text = Your installation ID is
+box_info_step_4_title = ¡Finalizado!
+box_info_step_4_text = ¡Felicitaciones por Instalar y Configurar Loaded Commerce como su solucion de tienda online! Le deseamos lo mejor con su tienda online y lo invitamos a unirse y participar en nuestra comunidad.<br /><br /><span style="float:right;">- El Equipo de Loaded Commerce</span>
+box_info_step_5_text = Su ID de instalacion es
 
-rpc_database_connection_test = Testing database connection...
+rpc_database_connection_test = Probando la conexion a la base de datos...
 rpc_database_connection_error = There was a problem connecting to the database server. The following error occured: <b>%s</b>.  Please verify the connection parameters and try again.
 rpc_database_connected = Successfully connected to the database.
 rpc_database_importing = The database structure is now being imported. Please be patient during this procedure.
