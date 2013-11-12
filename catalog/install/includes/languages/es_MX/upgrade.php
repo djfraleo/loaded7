@@ -234,7 +234,7 @@ upgrade_step4_zipextracterror = incapaz de extraer el archivo zip al directorio 
 upgrade_step4_page_errfound = Incapaz de copiar archivos de la fuente. Por favor copie manualmente las imagenes de los productos y las categorias desde su antiguo sitio creloaded al directorio images/products/originals de loaded7
 
 upgrade_step5_page_title = Parametros de la Tienda
-upgrade_step5_page_desc = Here you can define the name of your online store, and the contact information for the store owner.  The administrator username and password are used to log into the protected administration tool section. 
+upgrade_step5_page_desc = Aqui puede definir el nombre de su tienda online, y la informacion de contacto del dueño de la tienda.  EL nombre de usuario y la contraseña del administrador son utilizadas para autentificarse dentro de la seccion protegida de la herramienta de administracion. 
                                                                                                                               
 upgrade_step6_page_title = Servidor Web                                                                                            
 upgrade_step6_page_desc = The web server takes care of serving the pages of the online store to the visitors and customers. The web server parameters make sure the links to the pages point to the correct location. Temporary files such as session data and cache files are stored in the work directory. It is important that this directory is located outside the web server root directory and is protected from public access. 
