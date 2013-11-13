@@ -87,93 +87,93 @@ box_info_step_4_text = ¡Felicitaciones por Instalar y Configurar Loaded Commerc
 box_info_step_5_text = Su ID de instalacion es
 
 rpc_database_connection_test = Probando la conexion a la base de datos...
-rpc_database_connection_error = There was a problem connecting to the database server. The following error occured: <b>%s</b>.  Please verify the connection parameters and try again.
-rpc_database_connected = Successfully connected to the database.
-rpc_database_importing = The database structure is now being imported. Please be patient during this procedure.
-rpc_database_imported = Database imported successfully.
-rpc_database_import_error = There was a problem importing the database. The following error occured: <b>%s</b>. Please verify the connection parameters and try again.
+rpc_database_connection_error = Hubo un problema al conectarse al servidor de la base de datos. Ocurrio el siguiente error: <b>%s</b>.  Por favor verifique loas parametros de conexion e intentelo de nuevo.
+rpc_database_connected = Conectado exitosamente a la base de datos.
+rpc_database_importing = La estructura de la base de datos esta siendo importada. Por favor sea peciente durante este procedimiento.
+rpc_database_imported = Base de datos importada exitosamente.
+rpc_database_import_error = Hubo un problema al importar la base de datos. Ocurrio el siguiente error: <b>%s</b>. Por favor verifique los parametros de conexion e intentelo de nuevo.
 
-rpc_work_directory_test = Testing work directory...
-rpc_work_directory_error_non_existent = There was a problem accessing the working directory. The following error occured: <b>The directory does not exist: %s</b>. Please verify the directory and try again.
-rpc_work_directory_error_not_writeable = There was a problem accessing the working directory. The following error occured: <b>The webserver does not have write permissions to the directory: %s</b>. Please verify the permissions of the directory and try again.
-rpc_work_directory_configured = Working directory successfully configured.
+rpc_work_directory_test = Probando el directorio de trabajo...
+rpc_work_directory_error_non_existent = Hubo un problema al accesar el directorio de trabajo. Ocurrio el siguiente error: <b>El directorio no existe: %s</b>. Por favor verifique el directorio e intentelo de nuevo.
+rpc_work_directory_error_not_writeable = Hubo un problema al accesar el directorio de trabajo. Ocurrio el siguiente error: <b>El servidor web no tiene permisos de escritura en el directorio: %s</b>. Por favor verifique los permisos del directorio e intentelo de nuevo.
+rpc_work_directory_configured = Direcorio de trabajo configurado exitosamente.
 
-rpc_database_sample_data_importing = The sample data is now being imported into the database. Please be patient during this procedure.
-rpc_database_sample_data_imported = Database sample data imported successfully.
-rpc_database_sample_data_import_error = There was a problem importing the database sample data. The following error occured: <b>%s</b>. Please verify the database server and try again.
+rpc_database_sample_data_importing = Los datos de ejemplos seran importados a la base de datos. Por favor sea paciente durante este procedimiento.
+rpc_database_sample_data_imported = Datos de ejemplos de la base de datos importados exitosamente.
+rpc_database_sample_data_import_error = Hubo un problema al importar los datos de ejemplo a la base de datos. Ocurrio el sigueinte error: <b>%s</b>. Por favor verifique el servidor de base de datos e intentelo de nuevo.
 
-rpc_configfile_verified = config file verified
-rpc_sqlfile_verified = SQL file verified 
+rpc_configfile_verified = archivo de configuracion verificado
+rpc_sqlfile_verified = archivo SQL verificado 
 
-rpc_configfile_error = No previous installation found. Please check the path and/or permissions
-rpc_sqlfile_error = Cannot locate source configuration file 
+rpc_configfile_error = No se encontro una instalacion previa. Por favor cheque la ruta y/o los permisos
+rpc_sqlfile_error = No se puede localizar el archivo de configuracion fuente 
 
-param_import_categories = CATEGORIES
-param_import_categories_description = importing Category data 
+param_import_categories = CATEGORIAS
+param_import_categories_description = importando datos de Categorias 
 
-param_import_products = PRODUCTS
-param_import_products_description = importing Product data
+param_import_products = PRODUCTOS
+param_import_products_description = importando datos de Productos
 
-param_import_attributes = ATTRIBUTES
-param_import_attributes_description = importing Product Attributes data
+param_import_attributes = ATRIBUTOS
+param_import_attributes_description = importando datos de Atributos de Productos
 
-param_import_customers = CUSTOMERS
-param_import_customers_description = importing Customer data 
+param_import_customers = CLIENTES
+param_import_customers_description = importando datos de Clientes 
 
-param_import_customer_groups = CUSTOMER GROUPS
-param_import_customer_groups_description = importing Customer Groups data
+param_import_customer_groups = GRUPOS DE CLIENTES
+param_import_customer_groups_description = importando datos de Grupos de Clientes
 
-param_import_orders = ORDERS 
-param_import_orders_description = importing Orders data
+param_import_orders = PEDIDOS 
+param_import_orders_description = importando datos de Pedidos
 
-param_import_cds = CONTENT DIRECTOR 
-param_import_cds_description = importing Content Director data 
+param_import_cds = DIRECTOR DE CONTENIDO 
+param_import_cds_description = importando datos de Director de Contenidos 
 
-param_import_admin = ADMINISTRATORS 
-param_import_admin_description = importing Administrator data 
+param_import_admin = ADMINISTRADORES 
+param_import_admin_description = importadno datos de Administrador 
 
 param_import_newsletter = NEWSLETTER 
 param_import_newsletter_description = importing Newsletter data 
 
 param_import_banners = BANNERS 
-param_import_banners_description = importing Banner data 
+param_import_banners_description = importando datos del Banner 
 
-param_import_config = CONFIGURATION 
-param_import_config_description = importing Configuration data 
+param_import_config = CONFIGURACION 
+param_import_config_description = importando datos de COnfiguracion 
 
-param_import_coupon = COUPONS 
-param_import_coupon_description = importing Coupon data 
+param_import_coupon = CUPONES 
+param_import_coupon_description = importando datos de Cupones 
 
-param_import_tax = TAX CLASSES/RATES 
-param_import_tax_description = importing Tax Class and Rate data 
+param_import_tax = CLASES DE IMPUESTOS/TARIFAS 
+param_import_tax_description = importando datos Clases de Impuestos y Tarifas 
 
-rpc_upgrade_success = import completed
-rpc_upgrade_inprogress = import in progress
+rpc_upgrade_success = importacion completada
+rpc_upgrade_inprogress = importacion en progreso
 
-param_upgrade_existing_store = Existing Store name
-param_upgrade_store_name = Store Name
-param_upgrade_store_admin = Admin Name
-param_upgrade_store_dbase = Existing Database
+param_upgrade_existing_store = Nombre de Tienda existente
+param_upgrade_store_name = Nombre de Tienda
+param_upgrade_store_admin = Nombre del Administrador
+param_upgrade_store_dbase = Base de Datos existente
 
-param_upgrade_step1_title_confirm = Existing Store Configuration
-param_upgrade_step1_desc_confirm = The following store information was located. If this is correct, click 'Continue' below. To select a different store, click 'Back'.
+param_upgrade_step1_title_confirm = Configuracion de Tienda Existente
+param_upgrade_step1_desc_confirm = Se localizo la siguiente informacion de tienda. Si esto es correcto, seleccione 'Continuar' abajo. Para seleccionar una tienda diferente, seleccione 'Regresar'.
 
-upgrade_step2_title = New Database Settings
-upgrade_step2_desc = Please enter settings of the new database. The new database must be empty. The installer will copy your existing data to this new database .
+upgrade_step2_title = Nuevos Parametros de la Base de Datos
+upgrade_step2_desc = Por favor introduzca los parametros de la nueva base de datos. La nueva base de datos debe estar vacia. El instalador copiara sus datos existentes para esta nueva base de datos.
 
-upgrade_step2_title_success = New Database Settings
-upgrade_step2_desc_success = Successfully conected to the database server .
+upgrade_step2_title_success = Parametros de la nueva Base de Datos
+upgrade_step2_desc_success = Exitosamente conectado al servidor de la base de datos.
 
-upgrade_step3_title = Database Import
-upgrade_step3_desc = The installer will copy the existing database to the new database and convert the data to work with Loaded7 . This may take a few minutes. Please do not close the browser, press the back button or navigate away from this page .
+upgrade_step3_title = Importar Base de Datos
+upgrade_step3_desc = El instalador copiara la base de datos existente a la nueva base de datos y convertira los datos para trabajar con Loaded7. Esto puede tomar varios minutos. Por favor no cierre su navegador, presione el boton regresar ni navege a otra pagina.
 
-image_button_retry = Retry
+image_button_retry = Reintentar
 
-upgrade_nav_text_1 = Welcome
-upgrade_nav_text_2 = Upgrade Path
-upgrade_nav_text_3 = Configure
-upgrade_nav_text_4 = Settings
-upgrade_nav_text_5 = Finished 
+upgrade_nav_text_1 = Bienvenida
+upgrade_nav_text_2 = Ruta de Actualizacion
+upgrade_nav_text_3 = Configurar
+upgrade_nav_text_4 = Parametros
+upgrade_nav_text_5 = FInalizado 
 
 upgrade_main_page_title = Upgrade From 6.x Version
 upgrade_main_page_desc = Use this option if you have a previous version of Loaded Commerce, also known as CRE Loaded. Upgradeable versions are 6.2 and up ( 6.3, 6.4, 6.5 ) Standard, Community Edition, Pro and B2B.
