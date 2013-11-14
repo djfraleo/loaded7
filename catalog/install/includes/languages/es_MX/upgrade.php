@@ -173,7 +173,7 @@ upgrade_nav_text_1 = Bienvenida
 upgrade_nav_text_2 = Ruta de Actualizacion
 upgrade_nav_text_3 = Configurar
 upgrade_nav_text_4 = Parametros
-upgrade_nav_text_5 = FInalizado 
+upgrade_nav_text_5 = Finalizado 
 
 upgrade_main_page_title = Actualizar desde la Version 6.x
 upgrade_main_page_desc = Utilice esta opcion si tiene una version previa de Loaded Commerce, tambien conocida como CRE Loaded. Las versiones actualizables son desde 6.2 y superiores ( 6.3, 6.4, 6.5 ) Standard, Community Edition, Pro y B2B.
@@ -197,21 +197,21 @@ upgrade_step1_label = Ruta a la instalacion existente
 upgrade_step1_err_pathsame = La ruta del sistema de archivos de la tienda existente no puede ser igual que la actual ruta del sistema de archivos executandose
 upgrade_step1_err_noconfig = Los archivos de configuracion de la tienda existente (admin/includes/configure.php) no pueden ser accesados
 
-upgrade_step1_err_noserver	= The existing store file (admin/includes/configure.php) missing the value of DB_SERVER
-upgrade_step1_err_nouid 		= The existing store file (admin/includes/configure.php) missing the value of DB_SERVER_USERNAME
-upgrade_step1_err_nopass 		= The existing store file (admin/includes/configure.php) missing the value of DB_SERVER_PASSWORD
-upgrade_step1_err_nodb 			= The existing store file (admin/includes/configure.php) missing the value of DB_DATABASE
-upgrade_step1_err_noimage		= The existing store file (admin/includes/configure.php) missing the value of DIR_WS_IMAGES
+upgrade_step1_err_noserver = El archivo de la tienda existente (admin/includes/configure.php) no tiene el valor de DB_SERVER
+upgrade_step1_err_nouid    = El archivo de la tienda existente (admin/includes/configure.php) no tiene el valor de DB_SERVER_USERNAME
+upgrade_step1_err_nopass   = El archivo de la tienda existente (admin/includes/configure.php) no tiene el valor de DB_SERVER_PASSWORD
+upgrade_step1_err_nodb     = El archivo de la tienda existente (admin/includes/configure.php) no tiene el valor de DB_DATABASE
+upgrade_step1_err_noimage  = El archivo de la tienda existente (admin/includes/configure.php) no tiene el valor de DIR_WS_IMAGES
 
-upgrade_step2_page_title = New Database Settings
-upgrade_step2_page_desc = Please enter settings of the new database. The new database must be empty. The installer will copy your existing data to this new database .
+upgrade_step2_page_title = Nuevos Parametros de la Base de Datos
+upgrade_step2_page_desc = Por favor introduzca los parametros de la nueva base de datos. La nueva base de datos debe estar vacia. El instalador copiara sus datos existentes a esta nueva base de datos.
 
-upgrade_step2_page_title_success = New Database Settings
-upgrade_step2_page_desc_success = Successfully connected to the database server .
+upgrade_step2_page_title_success = Parametros de la Nueva Base de Datos
+upgrade_step2_page_desc_success = Conectado exitosamente al servidor de base de datos.
 
-upgrade_step3_page_title = Database Import
-upgrade_step3_page_desc = The installer will copy the existing database to the new database and convert the data to work with Loaded7 . This may take a few minutes. Please do not close the browser, press the back button or navigate away from this page .
-upgrade_step3_page_errfound = ERROR(S) FOUND . Please correct to proceed
+upgrade_step3_page_title = Importar Base de Datos
+upgrade_step3_page_desc = El instalador copiara la base de datos existente a la nueva base de datos y convertira los datos para trabajar con Loaded7. Esto puede tomar varios minutos. Por favor no cierre su navegador, presione el boton regresar ni navege a otra pagina.
+upgrade_step3_page_errfound = SE ENCONTRARON ERROR(ES). Por favor corrija para proceder
 
 upgrade_step4_page_title = Importar Imagenes
 upgrade_step4_page_desc = El Instalador copiara las imagenes existentes a la nueva base de datos y convertira los datos para trabajar con Loaded7. Esto podria tomar unos minutos. Por favor no cierre el navegador, presione el boton de regresar o nabege lejos de esta pagina.
@@ -237,11 +237,11 @@ upgrade_step5_page_title = Parametros de la Tienda
 upgrade_step5_page_desc = Aqui puede definir el nombre de su tienda online, y la informacion de contacto del dueño de la tienda.  EL nombre de usuario y la contraseña del administrador son utilizadas para autentificarse dentro de la seccion protegida de la herramienta de administracion. 
                                                                                                                               
 upgrade_step6_page_title = Servidor Web                                                                                            
-upgrade_step6_page_desc = The web server takes care of serving the pages of the online store to the visitors and customers. The web server parameters make sure the links to the pages point to the correct location. Temporary files such as session data and cache files are stored in the work directory. It is important that this directory is located outside the web server root directory and is protected from public access. 
+upgrade_step6_page_desc = El servidor web se encarga de enviar las paginas de la tienda online a los visitantes y clientes. Los parametros del servidor web se asegura que los vinculos a las paginas apunten a la localidad correcta. Los archivos temporales tales como los datos de sesion y archivos de cache son almacenados en el directorio de trabajo. Es importante que este directorio este localizado fuera del directorio raiz del servidor web y que este protegido del acceso publico.
 
 upgrade_step7_page_title = ¡Finalizado!
-upgrade_step7_page_desc = Congratulations on installing and configuring Loaded Commerce as your online store solution! We hope you all the best with your online store and welcome you to join and participate in our community.<br /><br /><span style="float:right;">- The Loaded Commerce Team</span>
+upgrade_step7_page_desc = ¡Felicitaciones por Instalar y Configurar Loaded Commerce como su solucion de tienda online! Le deseamos lo mejor con su tienda online y lo invitamos a unirse y participar en nuestra comunidad.<br /><br /><span style="float:right;">- El Equipo de Loaded Commerce</span>
 
-error_configuration_file_not_writeable = The webserver does not seem to be able to write the online store parameters to its configuration file due to file permission problems.  The configuration file is located at: %s
-error_configuration_file_alternate_method = Alternatively you can copy the configuration parameters to the configuration file by hand.  This process will attempt to update the configuration file automatically at the end of the installation.
-error_javascript_disabled = Javascript is required for the installation procedure and administration of this installation. Please enable it on your browser and <a href="index.php">re-run the installation procedure</a>.
+error_configuration_file_not_writeable = El servidor web parece no ser capaz de escribir los parametros de la tienda onlinea su archivo de configuracion debido a problemas de permiso de archivos.  El archivo de configuracion esta localizado en: %s
+error_configuration_file_alternate_method = Alternativamente puede copiar a mano los parametros de configuracion al archivo de configuracion.  Este proceso intentara actualizar el archivo de configuracion automaticamente al final de la instalacion.
+error_javascript_disabled = Se requiere de Javascript por el procedimiento de instalacion y la administracion de esta instalacion. Por favor habilitelo en su navegador y <a href="index.php">vuelva a correr el procedimiento de instalacion</a>.
