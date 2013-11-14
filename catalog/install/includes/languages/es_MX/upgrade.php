@@ -133,13 +133,13 @@ param_import_admin = ADMINISTRADORES
 param_import_admin_description = importadno datos de Administrador 
 
 param_import_newsletter = NEWSLETTER 
-param_import_newsletter_description = importing Newsletter data 
+param_import_newsletter_description = importando datos del Newsletter 
 
 param_import_banners = BANNERS 
 param_import_banners_description = importando datos del Banner 
 
 param_import_config = CONFIGURACION 
-param_import_config_description = importando datos de COnfiguracion 
+param_import_config_description = importando datos de Configuracion 
 
 param_import_coupon = CUPONES 
 param_import_coupon_description = importando datos de Cupones 
@@ -175,27 +175,27 @@ upgrade_nav_text_3 = Configurar
 upgrade_nav_text_4 = Parametros
 upgrade_nav_text_5 = FInalizado 
 
-upgrade_main_page_title = Upgrade From 6.x Version
-upgrade_main_page_desc = Use this option if you have a previous version of Loaded Commerce, also known as CRE Loaded. Upgradeable versions are 6.2 and up ( 6.3, 6.4, 6.5 ) Standard, Community Edition, Pro and B2B.
+upgrade_main_page_title = Actualizar desde la Version 6.x
+upgrade_main_page_desc = Utilice esta opcion si tiene una version previa de Loaded Commerce, tambien conocida como CRE Loaded. Las versiones actualizables son desde 6.2 y superiores ( 6.3, 6.4, 6.5 ) Standard, Community Edition, Pro y B2B.
 
-upgrade_main_option_same = Same Server
-upgrade_main_option_same_desc = Your previous installation is located on the same server /hosting space as the new installation and this script can access it's configure file to auto configure necessary connections.
+upgrade_main_option_same = Mismo Servidor
+upgrade_main_option_same_desc = Su instalacion previa se localiza en el mismo servidor / espcio de hospedaje  que el de la nueva instalacion y este script puede accesar su archivo de configuracion para auto configurar las conexiones necesarias.
 
-upgrade_main_option_remote = Remote Server
-upgrade_main_option_remote_desc = Your previous installation is located on another server with remote DB access. You will need to configure all aspects of the store but the database will be converted automatically.
+upgrade_main_option_remote = Servidor Remoto
+upgrade_main_option_remote_desc = Su instalacion previa esta localizada en otro servidor con acceso remoto a la DB. Necesitara configurar todos los aspectos de la tienda pero la base de datos sera convertida automaticamente.
 
-upgrade_main_option_dbfile = Database File
-upgrade_main_option_dbfile_desc = No previous installation but have a database backup of your old store? We can attempt to convert the data however you will need to configure all aspects of the store after the upgrade.
+upgrade_main_option_dbfile = Archivo Base de Datos
+upgrade_main_option_dbfile_desc = ¿No tiene una instalacion previa pero tiene un respaldo de la base de datos de su antigua tienda? Podemos intentar convertir los datos sin embargo necesitara configurar todos los aspectos de la tienda despues de la actualizacion.
 
-upgrade_step1_page_title = Path to Existing Installation
-upgrade_step1_page_desc = Enter the directory path to your existing installation.
+upgrade_step1_page_title = Ruta a la Instalacion Existente
+upgrade_step1_page_desc = Introduzca la ruta del directorio a su instalacion existente.
 
-upgrade_step1_page_title_confirm = Existing Store Configuration
-upgrade_step1_page_desc_confirm = The following store information was located. If this is correct, click 'Continue' below. To select a different store, click 'Back'.
-upgrade_step1_label = Path to existing install
+upgrade_step1_page_title_confirm = Configuracion de Tienda Existente
+upgrade_step1_page_desc_confirm = Se localizo la siguiente informacion de la tienda. Si esto es correcto, seleccione 'Continuar' abajo. Para seleccionar una tienda diferente, seleccione 'Regresar'.
+upgrade_step1_label = Ruta a la instalacion existente
 
-upgrade_step1_err_pathsame = The existing store file system path cannot match the currently executing file system path
-upgrade_step1_err_noconfig = The exisiting store configuration files (admin/includes/configure.php) cannot be accessed
+upgrade_step1_err_pathsame = La ruta del sistema de archivos de la tienda existente no puede ser igual que la actual ruta del sistema de archivos executandose
+upgrade_step1_err_noconfig = Los archivos de configuracion de la tienda existente (admin/includes/configure.php) no pueden ser accesados
 
 upgrade_step1_err_noserver	= The existing store file (admin/includes/configure.php) missing the value of DB_SERVER
 upgrade_step1_err_nouid 		= The existing store file (admin/includes/configure.php) missing the value of DB_SERVER_USERNAME
